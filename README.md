@@ -1,9 +1,9 @@
-**Python Playground**
+:snake:**Python Playground**
 *(small hacks in python)*
 
 >these scripts are written during my learning period of python
 ----------------------------------------------------------------------------
-:metal: **poetry.py**
+:one: **poetry.py**
 >this script generate random poem everytime you run the script
 >the structure of poem is inspired by **Clifford Pickover** :octocat:
 >{A/An} {adjective1} {noun1}
@@ -14,7 +14,7 @@
 
 ------------------------------------------------------------------------------
 
-:metal: **file extension converter**
-*convert all files with .jpg extension to .png extension*
+:two:**file extension converter**
+>convert all files with .jpg extension to .png extension
 
 ------------------------------------------------------------------------------
