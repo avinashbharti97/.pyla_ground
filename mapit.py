@@ -2,8 +2,12 @@
 
 #mapit.py -reads address from command line and open that address in google map
 
-import webbrowser, sys
+import webbrowser, sys, pyperclip
 
 if len(sys.argv)>1:
     address = ' '.join(sys.argv[1:])
-    webbrowser.open('https://avinashbharti97.github.io/{}'.format(address))
+
+else:
+    address = pyperclip.paste()
+
+webbrowser.open('https://avinashbharti97.github.io/{}'.format(address))
