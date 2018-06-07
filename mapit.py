@@ -10,4 +10,4 @@ if len(sys.argv)>1:
 else:
     address = pyperclip.paste()
 
-webbrowser.open('https://avinashbharti97.github.io/{}'.format(address))
+webbrowser.open('https://www.google.com/maps/place/{}'.format(address))
